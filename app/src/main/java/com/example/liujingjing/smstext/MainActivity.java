@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                             .append(" 是否查看: " + c.getInt(c.getColumnIndex("read")))
                             .append(" 类型： " + c.getInt(c.getColumnIndex("type"))).append(date);
                     Log.i("xuzhi", sb.toString());
+                    Log.i("xuzhi", sb.toString());
 
                 }
                 c.close();
